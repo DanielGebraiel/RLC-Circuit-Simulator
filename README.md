@@ -38,7 +38,7 @@ currents).
 
 At every time step, it consists of:
 - The voltage at each node
-- The current flowing at each volrage source or inductor
+- The current flowing at each voltage source or inductor
 
 
 ## Example
