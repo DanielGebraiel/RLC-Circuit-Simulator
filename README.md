@@ -13,6 +13,8 @@ currents).
 
 ## I/O Format
 
+### Input file
+
 -The first line contains the time step
 
 -The second line contains number of iterations
@@ -21,16 +23,22 @@ currents).
 
 -Each component starts with the type:
 - R for resistor
-- L for inductor
+- I for inductor
 - C for capacitor
-- V for voltage source
-- I for current source
+- Vsrc for voltage source
+- Isrc for current source
 
 -The 2 strings contain the 2 nodes that the component is between (V0 is always ground)
 
 -The next value is the value of the component (ohm for resistor, farad for capacitor, ...etc)
 
 -The final string is the initial value
+
+### Output file
+
+At every time step, it consists of:
+- The voltage at each node
+- The current flowing at each volrage source or inductor
 
 
 ## Example
